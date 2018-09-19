@@ -1,0 +1,118 @@
+@media only screen and (min-width : 769px),
+@media only screen and (min-device-width : 769px){
+    .conteiner .cols.col-1 {width: 8.333333333333333%;}
+    .conteiner .cols.col-2 {width: 16.66666666666667%;}
+    .conteiner .cols.col-3 {width: 25%;}
+    .conteiner .cols.col-4 {width: 33.33333333333333%;}
+    .conteiner .cols.col-5 {width: 41.66666666666667%;}
+    .conteiner .cols.col-6 {width: 50%;}
+    .conteiner .cols.col-7 {width: 58.33333333333333%;}
+    .conteiner .cols.col-8 {width: 66.66666666666667%;}
+    .conteiner .cols.col-9 {width: 75%;}
+    .conteiner .cols.col-10 {width: 83.33333333333333%;}
+    .conteiner .cols.col-11 {width: 91.66666666666667%;}
+    .conteiner .cols.col-12 {width: 100%;}
+    .menu-mobil,.mobil {display: none !important;}
+}
+
+@media only screen and (max-width : 768px),
+@media only screen and (max-device-width : 768px){
+    .epicode-fix-con  {height: 250px !important;}
+    .epicode-bottom-panel {top: 265px !important;font-size: 11pt !important;}
+    .row-epicode,.row-4 {top: 340px !important;}
+    .epicode-serial-poster img,.epicode-fon {display: none;}
+    .serial-information {width: 100%;}
+    .serial-information ul:nth-child(1),
+    .serial-information ul:nth-child(2) {
+        width: 50%;
+    }
+    .conteiner .cols_content_material2.col-content_material2,
+    .conteiner .cols_content_material.col-content_material
+    {
+        width: 33.33333333333333% !important;
+    }
+    .serial-inform-conteiner {    
+        height: auto !important;
+    }
+
+}
+@media only screen and (min-width : 1024px){
+    .epicode-logo-serial img {width: auto !important;height: 50px;}
+    
+}
+
+
+
+@media only screen and (max-width : 1023px),
+@media only screen and (max-device-width : 1023px){
+    html,body { font-size: 11pt;}
+     .conteiner .cols.col-1, 
+    .conteiner .cols.col-2,
+    .conteiner .cols.col-3, 
+    .conteiner .cols.col-4,
+    .conteiner .cols.col-5, 
+    .conteiner .cols.col-6, 
+    .conteiner .cols.col-7, 
+    .conteiner .cols.col-8, 
+    .conteiner .cols.col-9, 
+    .conteiner .cols.col-10, 
+    .conteiner .cols.col-11, 
+    .conteiner .cols.col-12,
+    .foorer-center-info,
+    .profile-buttons a,
+    .allUsersBtn, 
+    .uSearchFlSbm,
+    .uSearchFl {width: 100% !important;}
+    .top_menu,.top_menu_right_time_and_date,.sitybar,.main_genres_conteine,.footer-logo,.dis-fp-fon,.footer-logo-fp,.footer-sity-fp,.menu-destop,.row-mobil,.mobil {
+        display: none !important;
+    }
+    /*--- nav ---*/
+    nav,.epicode-logo-serial {height: 50px !important;}
+    nav{padding: 0 !important; background-color: rgba(30, 30, 30, 0.95) !important;}
+    .top_menu_center img {transform: scale(0.9) !important;}
+    .epicode-logo-serial {line-height: 50px;top: 0 !important;transform: scale(1) !important;}
+    .top_menu_left,.top_menu_right,.top_menu_center {top:0px;}
+    .top_menu_center {transform: scale(1.0) !important;}
+    .mini_profel {
+        top: 0 !important;
+        right: 0 !important;
+        padding-top: 50px !important;
+    }
+    .cell_vxod {width: 90%;margin: 0 5%;}
+    /*--- //nav ---*/
+    .kat-con {
+        margin-top: 50px;
+    }
+    .row-body-con {padding-top: 20px !important;}
+    .footer {height: 100px !important;}
+    .footer-epicode {
+        top: 426px !important;
+    }
+    .foorer-center-info {
+        padding-top: 30px !important;
+    }
+    .dis-fp {
+        margin-top: -25px !important; 
+    }
+    /*--- epicode ---*/
+    .epicode-logo-serial img {width: auto;height: 100%;}
+    .epicode-fon {height: 450px;}
+    .epicode-fix-con  {height: 250px;}
+    .epicode-bottom-panel {top: 390px;font-size: 11pt !important;}
+    .row-epicode,.row-4 {top: 430px;}
+    .epicode-serial-poster img {height: 100%;width: auto;}
+    
+    .serial-inform-conteiner {    
+        padding: 40px 5%;
+        top: 50px;
+        height: 350px;
+    }
+    .serial-information ul {font-size: 11pt;line-height: 15px;}
+    .serial-information ul li {height: 15px;line-height: 15px;margin: 5px 0;}
+    /*--- //epicode ---*/
+    .profile-photo {width: 50% !important;}
+    .profile-buttons2 a {width: 45% !important;}
+    .profel_bottom_form form input[type=text] {
+        margin: 5px 0 !important;
+    }
+}

@@ -1,0 +1,1423 @@
+/* -----/ Корказ сайта /----- */
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *:after, *:before { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    background-color: rgb(30,30,30);
+    font-family: Century Gothic,Helvetica,Arial;
+     font-size: 11pt;
+    color: #fff;
+}
+input {
+    outline: none;
+    font-variant: small-caps;
+    font-size: 11pt;
+    font-weight: normal;
+}
+input:-webkit-autofill {
+ -webkit-box-shadow: inset 0 0 0 50px #000 !important;
+ -webkit-text-fill-color: #169ef6 !important;
+ color: #169ef6 !important;
+}
+a {
+ color: #fff;
+ text-decoration: none;
+}
+a:hover,a:active {color:#169ef6;}
+ul li {list-style: none;}
+.conteiner {
+    width: 100%;
+    height: 100%;
+    margin:  0 auto;
+}
+.conteiner .cols {
+    float: left;
+    text-align: center;
+}
+
+.conteiner:before,
+.conteiner:alfter,
+.row:before,
+.row:alfter,
+.clear:before,
+.clear:alfter {
+    content: "";
+    display: table;
+}
+.row:before,
+.row:alfter,
+.clear:alfter {
+    clear: both;
+}
+
+/* -----/ Конец корказа сайта /----- */
+
+/* -----/ Анимация ссылок /----- */
+.transition{transition: 0.5s;}
+.transition a {transition: 0.5s;}
+.transition li a {transition: 0.5s;}
+/* -----/ Конец анимации ссылок /----- */
+
+/* -----/ Кнопки сайта /----- */
+.buttom a { 
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    display: block;
+    background: rgb(30,30,30);
+    border: 1px solid rgba(255,255,225,0.15);
+    color: #fff;
+}
+.buttom a:hover,
+.buttom a:focus,
+.buttom a:active{
+    color: #fff;
+    border-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 0px 15px 5px rgba(22, 158, 246, 0.3);
+    background-color: #169ef6;
+    outline: none;
+}
+input[type=submit]{
+    background: rgb(30,30,30);
+    border: 1px solid rgba(255,255,225,0.15);
+    border-radius: 10px;
+    margin: 0px;
+    color: #fff;
+}
+input[type=submit]:hover,
+input[type=submit]:focus,
+input[type=submit]:active{
+    color: #fff;
+    border-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 0px 15px 5px rgba(22, 158, 246, 0.3);
+    background-color: #169ef6;
+    outline: none;
+}
+input[checked=checked] {
+    width: 13px;
+    height: 13px;
+}
+/* -----/ Конец кнопок сайта /----- */
+
+/* -----/ Текстовые поля сайта /----- */
+input[type=text],input[type=password] {
+    height: 40px;
+    float: left;
+    background: rgba(30, 30, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #169ef6;
+    border-radius: 10px;
+}
+input[type=text]:hover,
+input[type=text]:focus,
+input[type=text]:active,
+input[type=password]:hover,
+input[type=password]:focus,
+input[type=password]:active {
+    outline: none;
+    border-color: #169ef6;
+    color: #169ef6;
+    box-shadow: 0px 0px 15px 5px rgba(22, 158, 246, 0.3);
+}
+/* -----/ Конец текстовых полей сайта /----- */
+
+/* ----------/ Навигация /---------- */
+
+nav {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: rgba(30, 30, 30, 0.95);
+    z-index: 1000;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.3);
+    top: 0;
+    padding: 0px 0;
+    
+}
+
+/* -----/ Левый Контейнер /----- */
+.top_menu_left {
+ width: 35%;
+    height: 50px;
+ float: left;
+}
+/* -----/ Поиск в меню /----- */
+.srchfrm {
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: block;
+    padding: 10px;
+}
+.srchfld {
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+.srchbtn {
+     width: 35%;
+    height: 36px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+/* -----/ Конец поиска в меню /----- */
+
+/* -----/ Конец левого контейнера /----- */
+
+/* -----/ Центральный Контейнер (Логотип сайта) /----- */
+.top_menu_center {
+    width: 30%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+}
+.top_menu_center img {   
+    transform: scale(0.9);
+    height: 100%;
+    vertical-align: middle;
+}
+/* -----/ Конец Центрального контейнера /----- */
+
+/* -----/ Правый Контейнер /----- */
+.top_menu_right {
+    width: 35%;
+    height: 50px;
+    float: right;
+    /*background-color: #000;*/
+}
+ 
+
+.main_logo_conteiner {
+ height: 50px;
+ text-align: left;
+ line-height: 50px;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+ font-size: 1.5rem;
+ padding-left: 20px;
+}
+.icon-menu-left {
+    float: left;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0;
+    left: 10px;
+    /*background-color: blue;*/
+    padding: 5px 10px 0 0px;
+}
+/* -----/ Мини профель /----- */
+.mini_profel {
+    right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.top_menu_right_fon {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    right: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.icon-menu-left {
+    float: left;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0;
+    left: 10px;
+    /*background-color: blue;*/
+    padding: 5px 10px 0 0px;
+}
+
+.top_menu_LoginMiniProfil {
+ width: 150px;
+ float: right;
+ height: 50px;
+ z-index: 2;
+}
+.top_menu_profel_icon {
+ width: 150px;
+ height: 50px;
+ float: left;
+ position: relative;
+}
+.top_menu_profel_icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.menu_icon {
+ width: 40px;
+ height: 40px;
+ float: left;
+    font-size: 25pt;
+    text-align: center;
+    line-height: 40px;
+}
+.mini_profel_users_sms {
+    color: rgb(255, 76, 76);
+    font-weight: bold;
+    position: absolute;
+    font-size: 11pt;
+    margin-left: 10px;
+}
+
+.top_menu_LoginMiniProfil_users_sms {
+ position: relative;
+ top: -25px;
+ background-color: red;
+ width: 20px;
+ height: 20px;
+ float: right;
+ border-radius: 50%;
+ font-size: 10px;
+ text-align: center;
+ line-height: 20px;
+    left: -60px;
+}
+
+.users_info_con {
+   width: 80%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.users_icon {
+ width: 120px;
+ height: 120px;
+ float: left;
+ border-radius: 50%;
+ box-shadow:0px 0px 15px 5px rgba(22, 158, 246, 0.5);
+}
+.users_icon img {
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+}
+.users_info {
+ position: relative;
+    top: 25px;
+ left: 10px;
+ font-size: 10pt;
+   text-align: left;
+}
+.users_info p {
+ padding: 0;
+ margin: 0 0 10px 0;
+}
+.users_span_color {
+ color: rgba(255,255,255,0.5);
+}
+.users_bottom {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.users_bottom_con {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.users_bottom a{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.users_bottom a:hover .mini_profel_users_sms,
+.profile-buttons a:hover,
+.profile-buttons2 a:hover .profel_users_button_button{color: #fff;}
+#baseLogForm{
+ margin-top: 50px;
+ width: 288px;
+ height: 150px;
+}
+#baseLogForm form {
+ width:288px;
+ height:150px;
+}
+/* -----/ Конец мини профеля /----- */
+
+/* -----/ Форма входа /----- */
+.cell_vxod { 
+    float: left;
+    width: 280px;
+    padding: 0px 10px; 
+} 
+
+.cell_vxod a:link, 
+.cell_vxod a:visited {color: #fff;} 
+.cell_vxod a:hover {color: #169ef6;} 
+
+.vxod_reg { 
+    float:left; 
+    font-size: 11pt;
+    color:#fff; 
+    width:100%; 
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+} 
+
+.cell_knopkav {  
+    width:100%; 
+} 
+
+.cell_pola_vxod { 
+    width: 100%;
+    height: 40px;
+    float:left; 
+    margin-bottom: 10px; 
+} 
+
+.vxod_name { 
+    width: 75px;
+    height: 40px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    line-height: 40px;
+    z-index: 5;
+    color: #fff;
+    text-align: center;
+} 
+
+.login_pole { 
+    width: 100%;
+    padding: 7px 5px 7px 80px;
+    position: relative;
+    top: -40px;
+    z-index: 1;
+} 
+
+.knopka_vxoda {
+    width: 100%;
+    height: 40px;
+}
+.cell_vxod input[type=checkbox]{
+    position: relative;
+    right: 10px;
+    top: -65px;
+    float: right;
+    z-index: 1;
+}
+/* -----/ Конец формы входа /----- */
+
+/* -----/ Дата и время /----- */
+.top_menu_right_time_and_date {
+ height: 50px;
+ float: right;
+ border-left: 1px solid rgba(255, 255, 255, 0.1);
+padding: 9px 20px 9px 10px;
+}
+.top_menu_right_time_and_date p {
+ padding: 0;
+ margin: 0;
+ text-align: center;
+}
+/* -----/ Конец даты и время /----- */
+
+/* -----/ Конец правого контейнера /----- */
+
+/* ----------/ Конец Навигации /---------- */
+/* ----------/ Body /---------- */
+.row-body-con {
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: rgb(60, 60, 60);
+    padding: 10px 5%;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.3);
+}
+/*-----/ Header /-----*/
+.header-view {
+    height: 2800px;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.head img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.head-1 {
+    z-index: 5;
+}
+
+.head-2 {
+    z-index: 4;
+}
+
+.head-3 {
+    z-index: 3;
+}
+
+.head-4 {
+    z-index: 2;
+}
+
+.head-out {
+    z-index: 0;
+}
+
+.header-info-body {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    padding: 0 5%;
+}
+
+.head-title {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    font-size: 45pt;
+    font-variant: small-caps;
+}
+
+.head-seasone {
+    border-right: 1px solid rgba(255,255,255,0.3);
+    padding-right: 10px;
+}
+
+.head-sea-and-week {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    font-size: 24pt;
+}
+
+.head-weekday {
+    color: rgba(255,255,255,0.6);
+}
+
+.main-conteiner-index {
+    display: inline-block;
+}
+
+/*-----/ Изображения в header /-----*/
+.head-1-img {
+    background-image: url(../img/SHIELD.jpg);
+}
+
+.head-2-img {
+    background-image: url(../img/got-faces.jpg);
+}
+.head-out-img {
+    background-image: url(../img/Wynonna_Earp_glavPoster.jpg);
+}
+
+.epicode-fon-img {
+    background-image: url(../img/SHIELD.jpg);
+}
+/*-----/ Конец Header /-----*/
+/* -----/ Жанры /----- */
+.row-generes {
+    margin-top: 100px;
+    padding: 0 5%;
+}
+.main_genres_conteiner {
+ width: 100%;
+ height: 210px;
+ float: left;
+    padding: 10px 0;
+}
+
+.main_logo_conteiner_1 {
+    width: 80%;
+    float: left;
+}
+.main_logo_conteiner_2 {
+    float: right;
+    width: 20%;
+    text-align: right;
+    padding-right: 30px;
+}
+.genres_conteiner {
+ width: 100%;
+ height: 140px;
+ float: left;
+    text-align: left;
+    padding: 10px;
+}
+.genres_conteiner_1 {
+    float: right;
+    width: 15%;
+    display: block;
+}
+.genres_conteiner_2 {
+    width: 80%;
+    float: left;
+    display: block;
+}
+.ul_ganres {
+ float: left;
+ list-style: none;
+ margin: 0;
+}
+.ul_ganres li {
+ line-height: 14px;
+ padding-bottom: 10px;
+    width: 25%;
+    float: left;
+    display: block;
+}
+.ul_ganres_2 li {
+ line-height: 14px;
+ padding-bottom: 10px;
+    width: 14%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+.ul_ganres li a,.ul_ganres_2 li a {
+ font-size: 12pt;
+}
+.ul_ganres .catsTableI tr {
+    width: 25% !important;
+}
+.ul_ganres_2 .catsTableI tr {
+    width: 16% !important;
+}
+/* -----/ Конец жанров /----- */
+
+/* -----/ Вид материала /----- */
+.content-material-body {height: 100%;padding-top: 20px;}
+.conteiner .cols_content_material {float: left;text-align: center;}
+.conteiner .cols_content_material.col-content_material {width: 33.33333333333333%;}
+
+
+
+.conteiner .cols_content_material2 {float: left;text-align: center;}
+.conteiner .cols_content_material2.col-content_material2 {   
+    width: 16.66666666666667%;
+    padding: 5px;
+}
+.conteiner .content-material-body2 .cols_content_material2.col-content_material2 {   
+    width: 25%;
+}
+
+
+.content_material,
+.content_material2{
+    height: auto;
+    position: relative;
+}
+/*.content_material a,
+.content_material2 a {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    padding: 5%;
+    color: #fff;
+}*/
+.content_material a:hover,
+.content_material2 a:hover{
+    opacity: 0.95;
+    transition: 0.5s ease-in-out;
+}
+.content_material_bg_hover {
+    position: absolute;
+    z-index: 10;
+    /*background-color: rgba(22, 158, 246, 0.9);*/
+    background-position: center;
+    opacity: 0;
+    left: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-image: linear-gradient(0deg, rgba(22, 158, 246, 0.9) 40%, rgba(0,0,0,0.3) 70%);
+    /*background-image: url(../img/play.png);*/
+    background-repeat: no-repeat;
+    background-size: 105%;
+    transition: opacity 0.5s;
+    border-radius: 20px;
+    padding: 0 5%;
+}
+.content_material_bg_hover a {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    width: 90%;
+    display: inline-block;
+    color: #fff;
+    box-shadow: 0px 0px 15px 5px rgba(22, 158, 246, 0.3);
+    outline: none;
+    border: 1px solid rgba(255,255,225,0.6);
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+.content_material_bg_hover a:hover,
+.content_material_bg_hover a:focus,
+.content_material_bg_hover a:active {
+    background-color: rgba(30,30,30,0.95);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+.content_material_bg_hover:hover {
+    opacity: 1;
+}
+
+.serial_poster {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+}
+.serial_poster img {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    border-radius: 20px;
+}
+
+.serial_logo_and_text {
+    width: 90%;
+    position: absolute;
+    bottom: 2em;
+    display: block;
+}
+.content_material2 .serial_logo_and_text {
+    height: 20px !important;
+}
+
+.serial_logo {
+    width: 100%;
+    display: block;
+}
+.cols_content_material .serial_logo {
+    height: 50px;;
+    line-height: 50px;
+}
+.serial_logo img {
+    margin: 0 auto;
+    vertical-align: middle;
+    
+}
+.cols_content_material .serial_logo img {
+    height: 100%;
+    width: auto;
+}
+
+.serial_text {
+    width: 100%;
+    height: 20px;
+    display: block;
+    position: relative;
+}
+.serial_text p {
+    width: 100%;
+    height:20px;
+    position: absolute;
+    line-height: 20px;
+}
+/* -----/ Конец вида материала /----- */
+
+/* -----/ Переключение страниц /----- */
+.pageswitch_conteiner {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-bottom: 10px;
+}
+.pageswitch_conteiner a {
+    width: 40px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    margin: 5px;
+}
+.pageswitch_conteiner_center {
+    display: inline-block;
+}
+/* -----/ Конец переключения страниц /----- */
+
+/* -----/  /----- */
+.video_settings {
+    float: right;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    line-height: 50px;
+}
+/* -----/  /----- */
+
+/* ----------/ Body /---------- */
+
+/* -----/ Сайт бар /----- */
+.sitybar {padding: 0 5px;}
+.sitybar-info-con{   
+    width: 100%;
+    padding: 10px 0;
+    height: 100%;
+    display: inline-block;}
+.sitybar-info-con .col-content_material2 {width: 50% !important;float: left;}
+/* -----/ Конец сайт бара /----- */
+
+/* -----/ Футер /----- */
+.footer {
+    height: 150px;
+    background-color: rgba(22, 158, 246, 0.95);
+}
+.footer-epicode {
+    position: relative;
+    top: calc(99vh + 5px);
+    z-index: 1;
+}
+.footer-logo {
+    width: 15%;
+    height: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+.footer-logo img {
+    width: auto;
+    height: 100%;
+}
+
+.dis-fp {
+   width: 100%;
+    height: 20px;
+    line-height: 20px;
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: -40px;
+}
+.dis-fp a {color: rgba(255,255,255,0.7);}
+.dis-fp a:hover,.dis-fp a:active,.dis-fp a:focus {color:#fff;}
+
+.foorer-center-info {
+    width: 75%;
+    height: auto;
+    float: left;
+    padding-top: 40px;
+}
+.footer-stat {
+    width: auto;
+    height: 20px;
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.footer-stat ul li {
+    float: left;
+    height: 20px;
+    margin: 0 5px;
+}
+.footer-stat ul {display: inline-block;}
+.footer-baner {
+    width: 100%;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+}
+.dis-fs-a a{color: rgba(255,255,255,0.7);}
+
+/* -----/ Конец Футера /----- */
+
+/* ----------/ Страница со списком эпизодов /---------- */
+.title-ep .u-mpanel {margin: 0;}
+.body-ep {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.row-epicode,.row-ep,.row-index {
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color: rgba(60, 60, 60, 0.95);
+    padding: 20px 5%;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+.row-epicode,.row-ep {
+    top: 100vh;
+}
+/*.row-epicode {
+    z-index: 2;
+}*/
+
+.epicode-logo-serial {
+    position: fixed;
+    width: 30%;
+    display: block;
+    z-index: 1000;
+    left: 35%;
+    height: 50px;
+    top: 0;
+    line-height: 50px;
+}
+
+.epicode-logo-serial img {
+    height: 100%;
+    vertical-align: middle;
+}
+.epicode-fix-con {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.epicode-fon {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    top: 0px;
+    display: inline-block;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.epicode-fon img {width: 100%;height: 100%;}
+.serial-inform-conteiner {
+    width: 100%;
+    height: 70vh;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    padding: 115px 5% 0;
+}
+.epicode-serial-poster {
+    width: 25%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+.epicode-serial-poster img {
+    width: 100%;
+    border-radius: 20px;
+}
+.serial-information {
+    width: 75%;
+    display: block;
+    float: left;
+    padding-left: 40px;
+}
+.serial-information ul {
+    list-style: none;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: normal;
+    text-transform: uppercase;
+    float: left;
+}
+.serial-information ul:nth-child(1)
+{
+    width: 41%;
+}
+.serial-information ul:nth-child(2)
+{
+    width: 59%;
+}
+.serial-information ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.serial_conteiner {
+}
+
+.list_serial_NomerEpicode {
+    width: 10%;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    float: left;
+    text-align: center;
+    font-size: 16pt;
+    font-variant: small-caps;
+}
+.list_serial_NameEpicode {
+ width: 85%;
+ float: left;
+ text-align: left;
+ margin: 5px 0;
+}
+.list_serial_NameEpicode p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12pt;
+}
+.list_serial_NameEpicode a {
+    font-variant: small-caps;
+     font-size: 14pt;
+     line-height: 30px;
+}
+.list_serial_Epicode {
+    width: 94%;
+    float: left;
+    padding:5px;
+    margin: 0 3%;
+}
+.borderEpicode {
+ border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+
+.epicode-bottom-panel {
+    width: 100%;
+    height: 60px;
+    font-size: 14pt;
+    position: fixed;
+    display: block;
+    bottom: 10px;
+    left: 0;
+    text-align: left;
+    padding: 0 5%;
+}
+
+.epicode-bottom-panel-top,.epicode-bottom-panel-bottom {
+    width: 100%;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+}
+.nav_serial_conteiner {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+/* ----------/ Модальные окна /---------- */
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+.modalDialog:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 80%;
+    height: 60%;
+    position: relative;
+    margin: 10%;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,555,255,0.3);
+    background: rgba(60,60,60,0.95);
+}
+.close {
+	line-height: 25px;
+	position: absolute;
+	right: 20px;
+	text-align: center;
+	top: 100px;
+	width: 24px;
+    height: 24px;
+}
+
+
+/* ----------/ Конец модальные окна /---------- */
+
+/* ----------/ Коментарии /---------- */
+/* -----/ Корказ /----- */
+.comment_main {
+ float: left;
+ margin-top: 10px;
+}
+
+.comment_name {
+ float: left;
+ width: 100%;
+ height: 40px;
+ padding-left: 20px;
+ line-height: 30px;
+}
+
+.comment_body_conteiner {
+ width: 908px;
+ float: left;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+.comment_form_dobav {
+ width: 908px;
+ height: 260px;
+ float: left;
+ margin-bottom: 20px;
+}
+.comentarii {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.com-mein-con-top-left {
+    padding-left: 20px;
+    font-size: 14pt;
+}
+
+.coment_time_and_data {
+    color: rgba(255,255,255,0.5);
+    padding: 0 10px;
+}
+.coment_time_and_data span:nth-child(2){
+    padding-left: 10px;
+}
+/* -----/ Конец корказа /----- */
+
+/* -----/ Внешний вид /----- */
+.kat-con {
+        height: 70px;
+    width: 100%;
+    line-height: 45px;
+    text-align: left !important;
+    padding: 0 5%;
+}
+
+.kat-bottom {
+    display: block;
+    width: 100%;
+    height: 15px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.kat-logo {
+    padding-left: 20px;
+    color: rgba(255,255,255,0.3);
+    font-size: 1.5rem;
+}
+
+.kat-name {
+    padding-left: 10px;
+    font-size: 14pt;
+}
+.koment-title {
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color:rgba(255,255,255,0.3);
+    font-size: 18pt;
+    line-height: 50px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.koment-body {
+    display: inline-block;
+    width: 94%;
+    height: 100%;
+    padding: 10px 0;
+    margin: 0 3%;
+    text-align: left;
+}
+
+.koment-conteiner {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: rgba(40,40,40,0.95);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px;
+}
+
+.koment-avatar {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.koment-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 5px rgba(22, 158, 246, 0.3);
+}
+
+.koment-mein-con {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 0 10px;
+}
+
+.koment-mein-con-top {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding: 0 10px;
+}
+
+.koment-mein-con-center {
+    width: 100%;
+    height: 55%;
+    float: left;
+    font-size: 11pt;
+    padding: 10px;
+    text-align: justify;
+}
+
+.koment-mein-con-bottom {
+    width: 100%;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    padding: 0 10px;
+    font-size: 14pt;
+}
+.koment-mein-con-bottom a {float: right;}
+/* -----/ конец внешнего вида /----- */
+/* ----------/ Конец коментарий /---------- */
+
+/* ----------/ Конец страницы со списком эпизодов /---------- */
+
+/* -----/ Профель пользователя /----- */
+.con-profel {
+    overflow-x: hidden;
+}
+.row-profel {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    float: left;
+    padding: 10px 5%;
+    overflow: hidden;
+    background-color: rgb(60,60,60);
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.3);
+}
+
+.row-profel-top {
+  position: relative;
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    z-index: 2;
+}
+.profel_title {
+        height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18pt;
+    width: 100%;
+    float: left;
+}
+
+.profel_left {
+    float: left;
+        display: inline-block;
+    width: 100%;
+    padding: 10px 10px 0;
+}
+
+.profile-photo img{
+        width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    float: left;
+}
+
+.profile-photo {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 5px rgba(22, 158, 246, 0.5);
+    display: inline-block;
+}
+
+.profel_nickName {
+    color: rgba(255,255,255,0.5);
+}
+
+
+
+.profile-name {
+        width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    font-variant: small-caps;
+    text-align: center;
+}
+.profile-name p {width: 100%;}
+.profile-buttons a{
+    margin-bottom: 10px;
+
+}
+.profile-moder-panel {
+    width: 100%;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.profel_users_button {
+            color: #169ef6;
+    font-weight: bold;
+    position: relative;
+    font-size: 12pt;
+}
+
+.profel_users_button_button {
+    left: 10px;
+}
+
+
+.profel_right {
+    float: left;
+        width: 100%;
+    padding: 10px 10px 0;
+    text-align: left;
+}
+
+.profile_selection,.profile_row {
+        width: 100%;
+    float: left;
+}
+   .profile_row {
+       font-size: 14pt;
+    height: auto;
+    line-height: 30px;
+}
+
+.profile_selection_title {
+    width: 100%;
+        height: 50px;
+    float: left;
+    padding-left: 10px;
+    font-size: 18pt;
+    font-variant: small-caps;
+    line-height: 50px;
+}
+
+.profile_row_name {
+        width: 35%;
+    float: left;
+    font-variant: small-caps;
+}
+
+.profile_row_content {
+    color: rgba(255, 255, 255, 0.5);
+    width: 65%;
+    float: left;
+}
+.profile_row_content a {color: rgba(255, 255, 255, 0.5);}
+.profile_row_content a:hover,.profile_row_content a:active{color:#169ef6;}
+.profile_selection_content_buttons {
+            text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.profel_bottom {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+/* -----/ Конец профель пользователя /----- */
+.views-epicode,.reiting-epicode {
+    width: 45%;
+    float: left;
+    position: absolute;
+    bottom: 15%;
+}
+.views-epicode {left: 5%;}
+.reiting-epicode {left: 50; right: 5%;} 
+.content_material_bg_hover p{
+    position: absolute;
+    display: inline-block;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+}
+.content_material_bg_hover:hover .serial_logo_and_text.serial_text p {
+    opacity: 0;
+}
+
+.profile-buttons a:hover .mini_profel_users_sms{
+    color: #fff;
+}
+
+.profile-buttons2 a{
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+}
+
+.profel_bottom_form form {
+    width: 100%;
+    height: 50px;
+    padding: 5px 5%;
+    display: inline-block;
+}
+.profel_bottom_form form input[type=submit] {
+    width: calc(25% - 5px);
+    height: 40px;
+    float: left;
+}
+.profel_bottom_form form input[type=text] {
+    width: 50%;
+    text-align: center;
+    margin: 0 5px;
+}
+
+
+
+
